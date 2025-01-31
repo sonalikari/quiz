@@ -39,3 +39,4 @@ This is a web-based quiz application that integrates gamification elements to en
    ```sh
    npm run build
    ```
+   Deployed Link: https://quiz-1-4muc.onrender.com
