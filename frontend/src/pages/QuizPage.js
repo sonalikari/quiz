@@ -17,8 +17,7 @@ const QuizPage = () => {
 
   useEffect(() => {
     axios
-      // .get("http://localhost:5000/api/quiz")
-      .get("https://quiz-4olk.onrender.com/api/quiz")
+      .get("http://localhost:5000/api/quiz")
       .then((response) => {
         setQuestions(response.data.questions);
         setLoading(false);
